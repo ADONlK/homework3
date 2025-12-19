@@ -3,7 +3,6 @@
 #include "Heap.h"
 
 int main() {
-    // Проверка с int
     Heap<int, 10> intHeap;
     intHeap.push(5);
     intHeap.push(1);
@@ -16,7 +15,6 @@ int main() {
     }
     std::cout << "\n\n";
 
-    // Проверка со строками (цвета)
     Heap<std::string, 5> colorHeap;
     colorHeap.push("green");
     colorHeap.push("red");
